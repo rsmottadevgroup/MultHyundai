@@ -435,15 +435,14 @@ body{
 /* ------------------------------------------------------------------ *
  * 1) MAPA (Leaflet + OpenStreetMap)
  * ------------------------------------------------------------------ */
-const DEFAULT_CENTER = [-22.9068, -43.1729]; // usado só até o 1º fix de GPS
+const DEFAULT_CENTER = [-23.5505, -46.6333]; // Coordenadas de São Paulo (Praça da Sé)
 const map = L.map('map', {
-  zoomControl: false,
-  attributionControl: true,
-  center: DEFAULT_CENTER,
-  zoom: 16,
-  fadeAnimation: true,
-  zoomAnimation: true
-});
+  zoomControl: false, 
+  attributionControl: true, 
+  center: DEFAULT_CENTER, 
+  zoom: 16, fadeAnimation: true,
+  zoomAnimation: true });
+
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
