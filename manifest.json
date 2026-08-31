@@ -1,6 +1,6 @@
 {
-  "name": "NEXUS MID — Central Multimídia",
-  "short_name": "NEXUS MID",
+  "name": "Hyundai — Central Multimídia",
+  "short_name": "Hyundai MID",
   "description": "Central multimídia automotiva com mapa GPS real e player de música.",
   "start_url": "./index.html",
   "scope": "./",
